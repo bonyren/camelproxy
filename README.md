@@ -1,24 +1,27 @@
-"CamelProxy" is a software solution for network proxy server. It's main features include:
+# CamelProxy代理服务器软件系统
+### 系统简介
+“CamelProxy”是一款网络代理服务器的软件解决方案。其主要功能体现在:
 
-*Network access sharing
+代理共享上网
+上网行为管理
+内网安全防护
+访问链路跳转
+局域网内只要一台计算机可以上网，其他计算机就可以通过该计算机代理上网，减少硬件费用和上网开支；通过CamelProxy内置的帐号，访问权限，访问日志功能进行上网权限管理和上网行为审计，可以有效提升企业员工的工作效率和企业的信息安全管理水平；代理上网只会对外暴露代理服务器的地址，可以有效的防护内网内其他计算机的安全；代理服务器可以改变默认网络传输路径，主动跨越到目的资源的网络瓶颈节点。
 
-*Internet behavior management
+它同时支持HTTP, Sock5等代理协议，系统具有高性能/大容量/高并发，运行稳定，部署简便，使用友好等特点。企业和组织可以使用CameProxy快速搭建出自己的代理服务器系统。
 
-*Intranet security
+### 系统特点
+- 高性能/大容量/高并发
 
-*Access link jump
+CamelProxy的网络IO转发引擎采用了Windows平台最高效的IO模型，结合C++语言高效，富有技巧的实现，使之网络IO性能速度达到同类软件中领先的水平。同时多年服务端高性能系统开发经验的应用，使之CPU，内存等资源占用率极低。在代理服务器带宽充足的条件下，从终端用户的角度来看，无法察觉访问其访问是否经过了代理服务器转发。
 
+- 运行可靠稳定
 
-It can supports proxy protocols such as HTTP and Sock5. The software has the characteristics of high performance, high capacity, high concurrency, stable operation, easy deployment and friendly use. Businesses and organizations can use CameProxy to quickly build their own proxy server system. The CamelProxy can effectively help enterprises to deal with complex network environment challenges.
+CamelProxy经历了严格测试，可以适应各种网络环境，做到长时间，无间断的稳定运行。同时做了很多系统的安全防护和加固，可以有效的识别和应对网络攻击。在设计阶段，我们就将软件长航时运行作为产品稳定性的一个重要的指标，设计了一套服务该指标的保障体系。在实现阶段，我们在CPU, 内存，IO等使用上，精益求精，既将系统的潜能发挥到极致，又确保系统的稳固可靠。
 
-1)High performance/high capacity/high concurrency
+- 部署简单/使用友好
 
-The network IO engine of CamelProxy use the high efficiency model of Windows platform, and C++ implementation with experienced skills, make the IO performance to high level. At the same time the CPU and memory usage is very low. If the bandwidth of network is enough, the users can't even perceive that they are using CamelProxy to access Internet.
+CamelProxy具备“一次安装，日常运行无须干预”的运作模式，它采用Windows后台服务的形式，跟随操作系统启动而自动运行。同时它的管理控制台采用Web模式呈现，既支持代理服务器本机浏览器访问，也支持远程，手机操控。可以随时随地，非常方便对代理服务器进行管理。
 
-2)Reliable/Stable
-
-We have made strict testing to CamelProxy, and make sure it can adapt to a variety of network environments and can work with long time and without interruption. At the same time we make much effort on system security and reinforcement, it can deal with attacks from Internet efficiently.
-
-3)Easy to deploy/User Friendly
-
-CamelProxy has a "one-install, day-to-day operation without intervention" mode of operation. It runs as the back-office service and can start with Windows operating system. The management console uses the web UI, also support remote and mobile access. The system can be easily managed anywhere, anytime.
+### 系统展示
+![实时界面](https://images.gitee.com/uploads/images/2022/0301/154153_8d2b8c58_10482337.png "camelproxyui_realtime.png")
